@@ -1,0 +1,44 @@
+.boxultimas{
+    width: 320px;
+    height: 341px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 6%, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .textultimas{
+        width: 288px;
+        height: 126px;
+        background: lawngreen;
+        font-family: IBMPlexSans;
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 42px;
+    }
+    .btnultimas{
+        width: 288px;
+        height: 48px;
+        background: #00F3BB;
+        margin-top: 36px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .textbtnultimas{
+            width: 202px;
+            height: 22px;
+            background: gray;
+            font-family: IBMPlexMono-Medium;
+            font-size: 16px;
+            color: #060A24;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 22px;
+
+        }
+    }
+}

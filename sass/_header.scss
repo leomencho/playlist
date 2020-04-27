@@ -1,0 +1,144 @@
+.header{
+    height:347px;
+    width: 320px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    
+    .menu{
+        height: 44px;
+        width: 320px;
+        box-sizing: border-box;
+        padding: 10px 19px 10px 16px;
+        background-color:gray;
+        display: flex;
+        justify-content: space-between;
+        
+    
+        .logo{
+            width: 24px;
+            height: 24px;
+            background-image: url(/images/logo.svg);
+        }
+    
+        .nav{
+            width: 18px;
+            height: 10px;
+            border: 2px solid black;
+            
+            .limenu{
+                width: 18px;
+                height: 10px;
+                border-bottom: 3px double black;
+                border-top: 2px solid black;    
+                font-size: 0; 
+
+            }
+
+        }
+    }
+
+    .titulopri{
+        height: 303px;
+        width: 320px;
+        box-sizing: border-box;
+        padding: 29px 0 24px 0px;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        //flex-wrap: nowrap;
+        .titulo{
+            width: 304px;
+            height: 84px;
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 16px;
+            padding-bottom: 16px;
+
+            .hola{
+                width: 85px;
+                height: 42px;
+                font-family: IBMPlexSans;
+                font-size: 26px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 42px;  
+            }
+            .mundo{
+                width: 101px;
+                height: 42px;
+                font-family: IBMPlexSans;
+                font-size: 26px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 42px;
+            }
+            .azul{
+                width: 212px;
+                height: 42px;
+                font-family: IBMPlexSans;
+                font-size: 26px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 42px;
+            }
+            .punto{
+                width: 10px;
+                height: 42px;
+                font-family: IBMPlexSans;
+                font-size: 36px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 42px;
+            }
+        }
+        
+        .presentacion{
+            width: 320px;
+            height: 150px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .parrafo{
+                height: 66px;
+                width: 288px;
+                font-family: IBMPlexMono;
+                font-size: 10px;
+                color: #060A24;
+                letter-spacing: 0;
+                line-height: 22px;
+                margin-bottom: 36px;
+            
+            }
+        .conoce{
+            width: 288px;
+            height: 48px;
+            background: #00F3BB;
+            :hover{
+                background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+                }
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            
+
+            .botonconoce{
+                width: 96px;
+                height: 22px;
+                font-family: IBMPlexMono-Medium;
+                font-size: 12px;
+                color: #060A24;
+                letter-spacing: 0;
+                text-align: center;
+                line-height: 22px;
+
+
+            }
+
+        }
+    }
+    
+    }
+    
+}

@@ -1,0 +1,38 @@
+.footer{
+    height: 121px;
+    width: 320px;
+    //background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 64px;
+
+    .hello{
+        height: 22px;
+        width: 227px;
+       // margin: 24px 46px 16px 47px;
+        background: yellowgreen;
+        font-family: IBMPlexMono;
+        font-size: 14px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+    .redesoc{
+        height: 28px;
+        width: 230px;
+        margin-top: 36px;
+        background: pink;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .fab{
+            font-size: 16px;
+            color: #060A24;
+            letter-spacing: 0;
+            line-height: 28px;
+        }
+    }
+}
